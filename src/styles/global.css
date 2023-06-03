@@ -1,0 +1,156 @@
+html {
+	font: 400 1em sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+dl,
+menu,
+dd,
+hr,
+pre,
+button,
+input,
+select,
+textarea,
+fieldset,
+legend,
+figure,
+blockquote,
+iframe,
+dialog,
+table,
+th,
+td,
+tbody,
+tr,
+tfoot,
+thead,
+colgroup {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+input,
+select,
+progress,
+meter {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+li {
+  list-style: none;
+}
+
+li::before {
+  content: "\200B";
+}
+
+a,
+abbr {
+  text-decoration: none;
+}
+
+dfn,
+address {
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  touch-action: manipulation;
+  -webkit-overflow-scrolling: touch;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+input,
+select,
+button,
+textarea {
+  font: inherit;
+}
+
+video,
+img,
+object,
+svg,
+iframe,
+embed {
+  display: block;
+}
+
+a {
+  font-weight: 700;
+  color: inherit;
+  white-space: nowrap;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+select,
+button,
+[role=button] {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  text-rendering: geometricPrecision;
+}
+
+p {
+  letter-spacing: 0.02ch;
+  line-height: 1.5;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+[data-wrap],
+[data-grid] {
+	max-inline-size: 64rem;
+	margin-inline: auto;
+	padding-inline: 1rem;
+}
+
+[data-grid] {
+	display: grid;
+	gap: 1rem;
+	grid-template: auto / repeat(auto-fill, minmax(20rem, 1fr));
+}

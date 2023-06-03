@@ -1,0 +1,12 @@
+:root {
+	--color-background: lightblue;
+	--color-heading: darkblue;
+}
+
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-background: lightgreen;
+		--color-heading: darkgreen;
+	}
+}

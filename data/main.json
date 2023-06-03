@@ -1,0 +1,27 @@
+{
+	"meta": {
+		"title": "ello there, bruv.",
+		"description": "Lorem ipsum dolor set."
+	},
+	"hero": {},
+	"nav": {},
+	"content": [
+		{
+			"id": 11,
+			"type": "section",
+			"heading": "Card section",
+			"cards": [
+				{
+					"id": 21,
+					"heading": "¡Hola!",
+					"copy": "Me nombre es Cayla y soy muy bonita.",
+					"image": {
+						"src": "/cayla-min.jpg",
+						"alt": "cute-face"
+					}
+				}
+			]
+		}
+	],
+	"footer": {}
+}
